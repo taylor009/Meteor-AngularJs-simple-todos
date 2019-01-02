@@ -10,11 +10,11 @@ angular.module('simple-todos', [
 ]);
 
 function onReady(){
-  angular.bootstrap(document, ['simple-todos']);
+    angular.bootstrap(document, ['simple-todos']);
 }
 
 if(Meteor.isCordova){
-  angular.element(document).on('deviceready', onReady);
+    angular.element(document).on('deviceready', onReady);
 } else {
-  angular.element(document).ready(onReady)
+    angular.element(document).ready(onReady)
 }
