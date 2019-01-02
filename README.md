@@ -33,7 +33,7 @@ To View Application:
 
 Running Unit test with Meteor and Chai:
 
-1. meteor test --driver-package practicalmeteor:mocha (if project is already running at the same time begin test with --port ####)
+1. meteor test --driver-package practicalmeteor:mocha (if project is already running at the same time begin test with --port number)
 
 
 
