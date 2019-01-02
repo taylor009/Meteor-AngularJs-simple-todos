@@ -44,7 +44,7 @@ class TodosListCtrl {
     }
     addTask(newTask){
         //Insert a task into the collection
-       Meteor.call('tasks.insert', newTask)
+       Meteor.call('tasks.insert', newTask);
         //Clear form
         this.newTask = '';
     }
