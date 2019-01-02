@@ -29,7 +29,7 @@ class TodosListCtrl {
         //Clear form
         this.newTask = '';
     }
-    removeTask(task){
+    setChecked(task){
         // Set the checked property to the opposite of its current value
         Tasks.update(task._id, {
             $set: {
